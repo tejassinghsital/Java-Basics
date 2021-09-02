@@ -1,52 +1,3 @@
-/* star pattern for printing square of stars like this:
-
-* * * * * 
-* * * * * 
-* * * * *
-* * * * *
-
-*/
-public class L28StarPatternsB1
-{
-	public static void main(String[] args)
-	{
-		for(int i=1;i<=5; i++)
-		{
-			for(int j=1;j<=5;j++)
-			{
-				System.out.print("*"+" ");
-
-			}
-		System.out.println(" ");
-		}
-	}
-}
-
-/* star pattern for printing lower triangle of stars like this:
-
-* * * * * 
-* * * * 
-* * * 
-* * 
-* 
-
-*/
-
-class L28StarPatternsB1two
-{
-	public static void main(String[] args)
-	{
-		for(int i=1;i<=5;i++)
-		{
-			for(int j=i;j<=5;j++)
-			{
-				System.out.print("*"+" ");
-			}
-		System.out.println(" ");
-		}
-	}
-}
-
 /* star pattern for printing diamond of stars like this:
 
         *
@@ -59,14 +10,14 @@ class L28StarPatternsB1two
       * * * 
         * 
 
-If you observe this diamond shape it actually makes of 2 parts:
+HINT: If you observe this diamond shape it actually makes of 2 parts:
 
 1. Upper: 1 lower traingle of spaces and 1 upper trangle of star then another upper trainale of star
 
 2. Lower: 1 upper traingle of space then 2 lower triangle of stars
 */
 
-class L28StarPatternsB1three
+public class L28StarPatternsB4
 {
 	public static void main(String[] args)
 	{
